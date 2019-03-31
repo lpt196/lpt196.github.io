@@ -25,6 +25,9 @@ textarea { resize: vertical; }
 .browserupgrade { margin: 0.2em 0; background: #ccc; color: #000; padding: 0.2em 0; }
 
 /* ========================================================================== Author's custom styles ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
 :root { --main-text-color: white; --second-text-color: black; }
 
 a:link { color: var(--main-text-color); }
