@@ -97,6 +97,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
 
 :root{
     
@@ -163,6 +164,7 @@ h6{
     padding: 0;
     margin: 0;
     font-weight: 700;
+    font-family: 'Space Mono', monospace;
 }
 
 h1{
@@ -171,11 +173,13 @@ h1{
     padding-top: 50px;
     padding-bottom: 50px;
     color: var(--main-text-color);
+    font-family: 'Space Mono', monospace;
 }
 
 h1.about{
     text-align: left;
     margin: 0;
+    font-family: 'Space Mono', monospace;
 }
 
 .featuredwork{
@@ -199,6 +203,7 @@ h2{
     color: white;
     text-align: center;
     margin: auto;
+    font-family: 'Space Mono', monospace;
 }
 
 .links{
@@ -226,6 +231,7 @@ img{
 h3{
     color: white;
     font-weight: 500;
+    font-family: 'Space Mono', monospace;
 }
 
 
