@@ -1,0 +1,87 @@
+<div class="featuredwork container" style="padding-top: 50px;">
+            <div class="row container col-centered align-items-center">
+               <!--picture side-->
+                <div class="col-sm align-middle mx-auto text-center">
+                         <a href="project1.html"> <img src="img/Coding_mockup-min%20(1).png" alt="BFA" style = "width: 100%;"class="opacitydown"></a>
+
+                        <div class="hideme">
+                        <!--mt means margin top-->
+                        <h2 style="padding: 0;" class="mt-4"><a href="project1.html">CSS Animation</a></h2>
+                        </div>
+
+                        <br>
+                </div>
+                    <div class="col-sm col-centered mx-auto text-center">
+                          <h2 class="smallups" style="padding: 0;"><a href="project1.html">CSS Poster Animation</a></h2>
+                    </div>
+              </div>
+        </div>
+  <!--end of block one-->
+  <!--block two or second featured work-->
+    <div class="featuredwork container" style="padding-top: 25px;">
+        <div class="row container col-centered align-items-center">
+            <div class="col-sm align-middle mx-auto text-center">
+                <h2 class="smallups" style="padding: 0;"><a href="bfa.html">BFA Identity</a></h2>
+            </div>
+
+            <div class="col-sm col-centered mx-auto text-center">
+                     <a href="bfa.html"><img src="img/29496711_321666355023462_2345324599161389056_o.jpg" alt="BFA" style="width: 100%;" class="opacitydown"></a>
+
+                    <div class="hideme">
+                        <h2 style="padding: 0;" class="mt-4"><a href="bfa.html">BFA Identity</a></h2>
+                    </div>
+              </div>
+        </div>
+    </div>
+    
+    <!--third featured work//WAT-->
+     <div class="featuredwork container" style="padding-bottom: 50px;">
+        <div class="row container col-centered align-items-center">
+            <div class="col-sm align-middle mx-auto text-center">
+
+                    <a href="wat.html"><img src="img/watlogo-24-min.png" alt="BFA" style="width: 100%;" class="opacitydown"></a>
+
+                    <div class="hideme">
+                        <h2 style="padding: 0;" class="mt-4"><a href="wat.html">WAT Identity</a></h2>
+                     </div>
+            </div>
+                <div class="col-sm col-centered mx-auto text-center">
+                     <h2 class= "smallups" style="padding: 0;"><a href="wat.html">WAT Identity</a></h2>
+                </div>
+        </div>
+    </div> 
+       
+    <!--fourth featured work-->   
+        
+    <div class="featuredwork container" style="padding-top: 25px;">
+        <div class="row container col-centered align-items-center">
+            <div class="col-sm align-middle mx-auto text-center">
+                <h2 class="smallups" style="padding: 0;"><a href="manifesto.html">Manifestos</a></h2>
+            </div>
+
+                <div class="col-sm col-centered mx-auto text-center">
+                    <a href="bfa.html"><img src="img/moral.png" alt="manifesto" style= "width: 90%;" class="opacitydown"></a>
+
+                    <div class="hideme">
+                        <h2 style="padding: 0;" class="mt-4"><a href="bfa.html">BFA Identity</a></h2>
+                    </div>
+              </div>
+        </div>
+    </div>
+       
+       <!--fifth featured work-->
+        
+    <div class="featuredwork container" style="padding-bottom: 50px;">
+        <div class="row container col-centered align-items-center">
+            <div class="col-sm align-middle mx-auto text-center">
+                    <a href="wat.html"><img src="img/motionscreenshot.jpg" alt="BFA" style="width: 100%;" class="opacitydown"></a>
+
+                    <div class="hideme">
+                         <h2 style="padding: 0;" class="mt-4"><a href="wat.html">WAT Identity</a></h2>
+                     </div>
+            </div>
+                <div class="col-sm col-centered mx-auto text-center">
+                     <h2 class= "smallups" style="padding: 0;"><a href="wat.html">Motion</a></h2>
+                </div>
+          </div>
+    </div> 
