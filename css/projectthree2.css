@@ -1,0 +1,132 @@
+#container{
+     width: 615px;
+     height: 884px;
+     background-color:#e4dcda;
+}
+
+#div1{
+     width: 615;
+    height: 470px;
+}
+
+#shape1{
+    width: 81px;
+    height: 470px;
+    float: right;
+    background-color: black;
+    position: relative;
+    animation: nudge 5s linear infinite alternate;
+   
+}
+
+#shape2{
+     width: 206px;
+     height: 466px;
+     float: right;
+     position: relative;
+    
+}
+
+#shape3{
+    width: 41px;
+    height: 120px;
+    float: right;
+    background-color: black;
+    margin-top: 348px;
+    position: relative;
+    animation: nudge 5s linear infinite alternate;
+    
+}
+
+#shape4{
+     width: 81px;
+     height: 470px;
+    float: right;
+   
+}
+
+#shape5{
+     width: 149px;
+     height: 44px;
+    background-color: black;
+    float: right;
+    margin-top: 305px;
+     position: relative;
+    
+}
+
+#div2{
+   width: 615px;
+    height: 348px;
+    float: left;
+   
+}
+
+#div2shape1{
+     width: 61px;
+     height: 348px;
+     float: left;
+    background-color: black;
+}
+
+#textbox{
+    margin-top: 97px;
+    padding-left: 105px;
+}
+
+
+#textline1{
+    font-family: 'Helvetica';
+    padding-bottom: 23px;
+    
+}
+
+#textline2{
+    font-family: 'Helvetica';
+    font-size: 20px;
+    padding-bottom: 23px;
+    position: relative;
+}
+
+#textline3{
+    font-family: 'Helvetica';
+    padding-bottom: 23px;
+    position: relative;
+}
+
+#textline4{
+    font-size: 10px;
+    font-family: 'Helvetica';
+    position: relative;
+}
+
+#div3{
+    width: 329px;
+    height: 64px;
+    float: left;
+    background-color: black;
+    position: relative;
+    margin-left: 210px;
+   
+}
+
+#div3shape1{
+     width: 1000px;
+     height: 300px;
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(150px, 0);
+  }
+  
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
+
+

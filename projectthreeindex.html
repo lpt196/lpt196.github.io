@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Poster Project</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width">
+      <link rel="stylesheet" href="css/projectthree.css">
+    <link rel="stylesheet" href="css/animate.css">
+   <script>function PlaySound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.play();
+}
+
+function StopSound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.pause();
+    thissound.currentTime = 0;
+}</script>
+</head>
+
+<body>
+    
+   <!--<div class="please"></div>-->
+    
+    <div class ="container" onmouseover="PlaySound('playthissound')" >
+        <div id="div1">
+            <div id="shape1"></div>
+            <div id="shape2"></div>
+            <div id="shape3"></div>
+            <div id="shape4"></div>
+            <div id="shape5"></div>
+        </div>
+        
+        <div id="div2">
+            <div id="div2shape1"></div>
+           <div id="textbox"> 
+                <div id="textline1">
+                    Helmhaus Zurich
+                </div>
+                <div id="textline2">
+                    <b>Aus der Sammlung <br/>
+                       des Kunsthauses Zurich</b>
+                </div>
+
+                <div id="textline3">
+                    Neure Schweizer Kunst <br/>
+                    18.Aug.—13.Sept.1953
+                </div>
+
+                <div id="textline4">
+                    täglich geöffnet 10-12 und 14-18 Uhr <br />
+                    Samstag und Sonntag bis 17 Uhr, Mittwoch auch 20-22 Uhr <br />
+                    Montag geschlossen
+                </div>
+            </div>
+        </div>
+        
+         <div id="div3"></div>
+
+    </div>
+   
+    <div class="please"></div>
+    
+    <audio id='playthissound' src="img/inlovewiethaghost.mp3"/>
+    
+    <audio id='mySound' src='http://upload.wikimedia.org/wikipedia/commons/6/6f/Cello_Live_Performance_John_Michel_Tchaikovsky_Violin_Concerto_3rd_MVT_applaused_cut.ogg'/>
+</body>
+

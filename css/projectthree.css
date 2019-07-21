@@ -1,0 +1,464 @@
+.please{
+    width: 1500px;
+    height: 1000px;
+    position: absolute;
+    margin: 0;
+    background: white;
+    display: block;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.container{
+     width: 615px;
+     height: 884px;
+     background-color:#e4dcda;
+     margin: auto;
+    position: relative;
+    z-index: 10;
+   
+}
+
+/*.container:hover {
+   background-color: black;
+}*/
+
+
+.container:hover{
+   background-color: #1e1e1e;
+   
+    
+}
+.container:hover #shape1 {
+   animation: shape1 2s linear infinite alternate;
+  
+}
+
+.container:hover #shape3 {
+  
+   animation: shape3 1s linear infinite alternate;
+}
+
+.container:hover #shape5 {
+   
+   animation: shape5 2s linear infinite alternate;
+}
+
+.container:hover #div2shape1 {
+   
+   animation: shape6 3.9s linear infinite alternate;
+   
+}
+
+.container:hover #div3 {
+   background-color: white;
+   animation: nudge 1s linear infinite alternate;
+   
+}
+
+.container:hover #textline1 {
+    color: white;
+}
+
+
+.container:hover #textline2 {
+  color: white;
+}
+
+.container:hover #textline3 {
+  color: white;
+}
+
+.container:hover #textline4 {
+  color: white;
+}
+
+.container:hover ~ .please{
+    background: linear-gradient(#181818, #FF4589, #FF7A45);
+}
+
+
+#div1{
+     width: 615;
+    height: 470px;
+}
+
+#shape1{
+    width: 81px;
+    height: 470px;
+    float: right;
+    position: relative;
+    background-color: black;
+    /*animation: shape1 2s linear infinite alternate;*/
+}
+
+#shape2{
+     width: 206px;
+     height: 466px;
+     float: right;
+     /*background-color: white;*/
+}
+
+#shape3{
+    width: 41px;
+    height: 120px;
+    float: right;
+    background-color: black;
+    margin-top: 348px;
+   /* animation: shape3 1s linear infinite alternate;*/
+}
+
+#shape4{
+     width: 81px;
+     height: 470px;
+    float: right;
+    position: relative;
+}
+
+#shape5{
+     width: 149px;
+     height: 44px;
+    background-color: black;
+    float: right;
+    margin-top: 305px;
+    position: relative;
+   /* animation: shape5 2s linear infinite alternate;*/
+}
+
+#div2{
+   width: 615px;
+   height: 348px;
+   float: left;
+}
+
+#div2shape1{
+     width: 61px;
+     height: 348px;
+     float: left;
+    background-color: black;
+    position: relative;
+    /*animation: shape6 3.9s linear infinite alternate;*/
+}
+
+#textbox{
+    margin-top: 97px;
+    padding-left: 105px;
+}
+
+
+#textline1{
+    font-family: 'Helvetica';
+    padding-bottom: 23px;
+   animation: fadeIn 2s linear alternate;
+}
+
+#textline2{
+    font-family: 'Helvetica';
+    font-size: 20px;
+    padding-bottom: 23px;
+    animation: fadeIn 2.5s linear alternate;
+}
+
+
+#textline3{
+    font-family: 'Helvetica';
+    padding-bottom: 23px;
+    animation: fadeIn 3s linear alternate;
+}
+
+#textline4{
+    font-size: 10px;
+    font-family: 'Helvetica';
+    position: relative;
+    animation: fadeIn 3.5s linear alternate;
+}
+
+#div3{
+    width: 329px;
+    height: 64px;
+    float: left;
+    background-color: black;
+    margin-left: 210px;
+    position: relative;
+    /*animation: nudge 1s linear infinite alternate;*/
+    padding-top: 2px;
+}
+
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+      background-color: pink;
+  }
+  
+  50% {
+    transform: translate(75px, 0);
+    background-color: hotpink
+    }
+  
+}
+
+@keyframes shape1 {
+  0%, 100% {
+    transform: translate(0, 0);
+    background-color: hotpink;
+  }
+  
+  50% {
+    transform: translate(0, 350px);
+    background-color: deeppink;
+  }
+  
+  80% {
+        transform: translate(0, 90px);
+        background-color: #f3214e;
+    }
+    
+}
+
+@keyframes shape3 {
+  0%, 100% {
+    transform: translate(0, 0);
+    background-color: pink;
+  }
+  
+  50% {
+    transform: translate(0, -100px);
+    background-color: deeppink;
+  }
+    
+    70% {
+        transform: translate(0, 130px);
+    background-color: pink;
+    }
+}
+
+@keyframes shape5 {
+  0%, 100% {
+    transform: translate(0, 0);
+    background-color: red;
+  }
+  
+  50% {
+    transform: translate(80px, 0);
+    background-color: hotpink;
+  }
+  
+}
+
+@keyframes shape6 {
+  0%, 100% {
+    transform: translate(0, 0px);
+    background-color: #f3214e;
+  }
+  
+  50% {
+    transform: translate(0, -120px);
+    background-color: deeppink;
+  }
+ 
+    70%{
+        background-color: pink;
+    }
+  
+    /*90%{
+        transform: translate(0, -100px);*/
+    }
+}
+    
+
+  
+    
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}
+        
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+      
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+}
+        
+@keyframes fadeInUp {
+  0% {
+    display: none;
+    opacity: 0;
+    transform: translate3d(0, 0, 0);
+  }
+
+   50%{
+    opacity: 0;
+    transform: none;
+    display: block;
+    transform: translate3d(0, 100%, 0);
+  }
+    
+    100%{
+        display: block;
+        opacity: 1;
+    }
+  
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+        
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInLeft {
+  animation-name: slideInLeft;
+}
+
+        
+/*new animations for hover state change*/
+
+        @keyframes nudge2 {
+  0%, 100% {
+    transform: translate(0, 0);
+      background-color: pink;
+  }
+  
+  50% {
+    transform: translate(75px, 0);
+    background-color: hotpink
+    
+  }
+  
+}
+
+
+    
+}
+
+@keyframes shape32 {
+  0%, 100% {
+    transform: translate(0, 0);
+    background-color: pink;
+  }
+  
+  50% {
+    transform: translate(0, -100px);
+    background-color: deeppink;
+  }
+    
+    70% {
+        transform: translate(0, 130px);
+    background-color: pink;
+    }
+}
+
+@keyframes shape52 {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(80px, 0);
+  }
+  
+}
+
+@keyframes shape62 {
+  0%, 100% {
+    transform: translate(0, 0px);
+    background-color: lightpink;
+  }
+  
+  50% {
+    transform: translate(0, -120px);
+    background-color: pink;
+  }
+ 
+    70%{
+        background-color: hotpink;
+    }
+  
+    /*90%{
+        transform: translate(0, -100px);*/
+    }
+}
+    
+
+    @keyframes shape9 {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(-20px, 0);
+    
+  }
+    
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+        
+ @-webkit-keyframes myfirst /* Safari and Chrome */
+    {
+    0%   {background:white;}
+    50%  {background:green;}
+    100%   {background:white;}
+    }
+
+

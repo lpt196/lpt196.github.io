@@ -320,6 +320,18 @@ h3{
   text-align: center;
 }
 
+.desktophidemobile{
+    visibility: hidden;
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .desktophidemobile{
+        visibility: visible;
+        display: block;
+    }
+}
+
 @media screen and (max-width: 576px) {
   .responsivepad {
         padding-bottom: 20px;
@@ -333,6 +345,10 @@ h3{
     .row{
         margin-right: 0;
         margin-left: 0;
+    }
+    .desktophidemobile{
+        visibility: visible;
+        display: block;
     }
 }
 
