@@ -325,19 +325,13 @@ h3{
     display: none;
 }
 
-@media screen and (max-width: 768px){
-    .desktophidemobile{
-        visibility: visible;
-        display: block;
-    }
-}
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
   .responsivepad {
         padding-bottom: 20px;
   }
     .pad2{
-        padding-top: 20px!important;
+        padding-top: 30px!important;
     }
      .workwithme h2{
         font-size: 20px;
@@ -350,7 +344,18 @@ h3{
         visibility: visible;
         display: block;
     }
+    
+    .featuredwork{
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
+    
+    .desktophidemobile{
+        visibility: visible;
+        display: block;
+    }
+}
+
 
 
 /* ==========================================================================
